@@ -1,0 +1,23 @@
+{
+  "name": "mykindlenotes",
+  "version": "1.0.0",
+  "description": "This is a web application intended to used MongoDB to keep track of reading notes on from Kindle ebooks.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kathrynxing/myKindleNotes.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kathrynxing/myKindleNotes/issues"
+  },
+  "homepage": "https://github.com/kathrynxing/myKindleNotes#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.5"
+  }
+}
