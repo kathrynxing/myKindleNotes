@@ -4,6 +4,7 @@
   "description": "This is a web application intended to used MongoDB to keep track of reading notes on from Kindle ebooks.",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
