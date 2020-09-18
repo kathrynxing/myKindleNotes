@@ -1,1 +1,17 @@
+<%- include("partials/header") %> 
  <h1>This is the main page!!!check push auto deploy</h1>
+ <form action="/upload" method="POST" enctype="multipart/form-data">
+    <input type="file" name="sampleFile" placeholder="html file">
+    <!-- <input type="text" name="name" placeholder="name"> -->
+    <!-- <input type="text" name="html" placeholder="html"> -->
+    <button>Submit!</button>
+</form>
+
+    <% Booknotes.forEach(function(Booknotes){ %>
+    <div class="row" style="display:flex; flex-wrap: wrap;">
+        <h4><%=Booknotes.name%></h4>
+        <h6><%=Booknotes.html%></p>
+    </div>
+
+    <% }); %>
+<%- include("partials/footer") %>
